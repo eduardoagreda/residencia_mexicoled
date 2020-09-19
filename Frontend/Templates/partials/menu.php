@@ -19,21 +19,26 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li  class="active"><a href="index.php">Principal</a>
-            </li>
+          
 
             <?php if (!isset($_SESSION["usuario"])) {?>
-            <li><a href="login.php">Login</a></li>
+              <li  class="active"><a href="index.php">Inicio de sesión</a>
             <li><a href="registro.php">Registro</a></li>
+            <li  class="active"><a href="#">Acerca de ...</a>
             <?php } else {
     ?>
               <?php if ($_SESSION["usuario"]["privilegio"] == 1) {?>
+              
               <li><a href="admin.php">Admin</a></li>
               <?php } else {?>
               <li><a href="usuario.php">Usuario</a></li>
             <?php }
 
 }?>
+
+
+          
+            </li>
 
 
 
@@ -44,3 +49,6 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+
+
+    

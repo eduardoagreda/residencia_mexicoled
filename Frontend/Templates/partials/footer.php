@@ -13,6 +13,21 @@
 
 <script src="assets/js/app.js"></script>
 
+
 </body>
 
 </html>
+
+
+
+
+
+<footer>
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="http://mexicoled.com/"> Mexicoled.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->

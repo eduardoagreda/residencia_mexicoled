@@ -44,7 +44,8 @@
     </div>
 
 
-    <button type="submit" class="btn btn-success">Registrar</button>
+    <button type="submit" class="btn btn-success">Registrar  </button>
+    <a href="index.php">         Iniciar sesión</a>
 </form>
 
 
