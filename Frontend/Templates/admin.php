@@ -65,9 +65,7 @@ body {
       <p>Panel de control | 
       <span class="label label-info"><?php echo $_SESSION["usuario"]["privilegio"] == 1 ? 'Admi' : 'Cliente'; ?></span>
        </p>
-      <p>
-      <a href="cerrar-sesion.php" class="btn btn-primary btn-lg">Cerrar session</a>
-      </p>
+    
         
        
     </div>
@@ -96,7 +94,7 @@ body {
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-pencil text-primary"></span><a href="http://www.jquery2dotnet.com">Articles</a>
+                                        <span class="glyphicon glyphicon-pencil text-primary"></span><a href="http://www.jquery2dotnet.com">Dispositivos</a>
                                     </td>
                                 </tr>
                                 <tr>
